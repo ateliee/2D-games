@@ -1,0 +1,54 @@
+
+#main{
+	width:500px;
+	height:200px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	padding:1px;
+	border:solid 1px #999999;
+}
+#main .stage{
+	width:10000px;
+	height:200px;
+	position:relative;
+	background:url(img/stage/ground.gif) bottom repeat-x;
+}
+#main .score{
+	font-size:18px;
+	font-weight:bold;
+	line-height:26px;
+	height:26px;
+	right:10px;
+	top:10px;
+	position:absolute;
+	z-index:10;
+	color:#FF6600;
+}
+#main .update_score{
+	font-size:24px;
+}
+#main .player{
+	background-position:0 0;
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index:5;
+}
+#main .block{
+	width:20px;
+	height:20px;
+	position:absolute;
+	background:url(img/stage/block.gif) left top no-repeat;
+}
+#main .wood{
+	width:40px;
+	height:40px;
+	position:absolute;
+	background:url(img/stage/wood.gif) left top no-repeat;
+}
+#main .enemy{
+	background-position:0 0;
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index:5;
+}
